@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+A: It creates an git repo, there are no commits. It is needed to allow commits to happen.
