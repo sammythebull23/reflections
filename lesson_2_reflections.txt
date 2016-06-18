@@ -4,3 +4,17 @@ A: It creates an git repo, there are no commits. It is needed to allow commits t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: it is a place to group your "working set". It seperates it from the working directory and repo. You can keep changes as small as you'd like.
 
+How can you use the staging area to make sure you have one commit per logical change?
+A: Using the "git add" command you can stage changes to a place prior to commiting to then commit with a common comment.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Experiments, code freezes for releases, or changes that might be major risky. Branches allow the mainline to keep being built off of.
+
+How do the diagrams help you visualize the branch structure?
+A: You can see exactly where the branch split off of the head to understand what changes haven't been merged in yet or you can see what bugs weren't introduced.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It takes on the form of both. We need to show that all changes come together at the end.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: automatic merging is excellent when it works - if it doesn't it is good because it forces you to get the right answer.
